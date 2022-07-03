@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e868664176294aa542a324488a103, type: 3}
+  m_Name: music_pool
+  m_EditorClassIdentifier: Assembly-CSharp:Endciv:SoundPool
+  sounds:
+  - Key: default
+    Sound:
+    - {fileID: 8300000, guid: 78b0003e0e405864999d68100520a9f3, type: 3}
+    - {fileID: 8300000, guid: 97bc589dc0ae97f4d8fc708e28ede8ff, type: 3}
+    - {fileID: 8300000, guid: 68042f2e4029b6b4992cc5d29fdecb7f, type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e868664176294aa542a324488a103, type: 3}
+  m_Name: ingameDefault
+  m_EditorClassIdentifier: Assembly-CSharp:Endciv:SoundPool
+  sounds:
+  - Key: construction_metal
+    Sound:
+    - {fileID: 8300000, guid: 9f55bac57e9a8044998558bef431a2c0, type: 3}
+    - {fileID: 8300000, guid: c2483209155a31c41899557080986dc5, type: 3}
+    - {fileID: 8300000, guid: 9153467d677bdf342a0f483df4ef1061, type: 3}
+    - {fileID: 8300000, guid: 3901a6557cb844b4d9dee6ffc86ed4f1, type: 3}
+    - {fileID: 8300000, guid: ca52a95d9ec53724ebf42e0a69707ea2, type: 3}
+    - {fileID: 8300000, guid: 6371dd6a4b46a174ca87a9afb9363f4e, type: 3}
+    - {fileID: 8300000, guid: b22a7dadf89e9574689f0998e2c38ef1, type: 3}
+    - {fileID: 8300000, guid: d3bb4283b556b4746aabe515f6a73d41, type: 3}
+    - {fileID: 8300000, guid: 940d86f892d788f4880f0f385cc5f63b, type: 3}
+    - {fileID: 8300000, guid: 850c241d9231c1642944698f1e8020b6, type: 3}
+    - {fileID: 8300000, guid: c98f49955746dde458d491132e35bc09, type: 3}
+    - {fileID: 8300000, guid: d37c4b769525a5b4697f70ace5085ec5, type: 3}
+  - Key: construction_wood
+    Sound:
+    - {fileID: 8300000, guid: 9542ed3cd3e51ef46a12db112ad76976, type: 3}
+    - {fileID: 8300000, guid: 722d0999d796f5c46b1705b9c75744ae, type: 3}
+    - {fileID: 8300000, guid: 02e1e218106e0c74abbc0e535ee53bdd, type: 3}
+    - {fileID: 8300000, guid: e8eafe0e770c65a4aac4908810959986, type: 3}
+    - {fileID: 8300000, guid: 22ed2436a16227140903bfa4ee52a7f2, type: 3}
+    - {fileID: 8300000, guid: 4e69dfb5ac55e93428e160a9919c7e13, type: 3}
+    - {fileID: 8300000, guid: 57801184abae6374f8364ca082d3cd75, type: 3}
+    - {fileID: 8300000, guid: 66b01f06064d5dc40bbc1987d9393917, type: 3}
+    - {fileID: 8300000, guid: 1db0f135e761ed549a4eca5e21642cbe, type: 3}
+    - {fileID: 8300000, guid: ac664a3077db1824f82947c7c9c97841, type: 3}
+    - {fileID: 8300000, guid: b9df675402322434994e84cd31fcf904, type: 3}
+    - {fileID: 8300000, guid: 89e387d52f1f25e4bac48426a5c2404d, type: 3}
+  - Key: workbench
+    Sound:
+    - {fileID: 8300000, guid: a5fc4f87e857da1499760bc6690311be, type: 3}
