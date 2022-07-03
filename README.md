@@ -10,7 +10,8 @@ Also may use the Discussions Tab on GitHub
 Guides will follow over time, depending on general interest. This is not a simple code base! Specific rules and workflows must be used.
 This project is made public for observation. The Project was originally made with Unity 2018 (before neste Prefabs!) and then updated to the 2019.4.40f1 LTS version.
 
-## Contents
+## Contents and Infos
+* There is good code and bad code, this is not always an example of a well structured project and does not reflect my current personal standards.
 * A custom multithreadded Pathfinder (A* and Flowfields)
 * A custom async LOD system with certain benefits
 * A mesh merging and automation tool including a simple character generator
