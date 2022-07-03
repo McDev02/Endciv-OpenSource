@@ -11,8 +11,8 @@ namespace Endciv
 {
 	public class GUIFeedbackPanel : GUIAnimatedPanel
 	{
-		const string addess = "https://endciv.de/feedback/";
-		const string sendFile = "core/recievefb_j884n2urn8ur4vr93nut4d.php";
+		const string addess = "";	//Removed intentionally
+		const string sendFile = ""; //Removed intentionally
 		const string sendAddress = addess + sendFile;
 
 		bool isbound;
@@ -39,7 +39,7 @@ namespace Endciv
 		StringBuilder stringBuilder = new StringBuilder();
 		MainGUIController mainGUIController;
 
-		string hash = "te4SWMeocB7c4RJ3";
+		string hash = "";   //Removed intentionally
 		string typ;
 		string mood;
 		string mail;
@@ -51,7 +51,7 @@ namespace Endciv
 		{
 			ValidateFeedback();
 
-			string email = "support@endciv.de";
+			string email = "";	//Put your email here.
 			string subject = MyEscapeURL("Endciv " + ((typeSelector.CurrentTab == 0) ? "Bug report" : "Feedback"));
 			string body = "";
 			if (string.IsNullOrEmpty(content))
