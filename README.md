@@ -1,6 +1,7 @@
 # Endciv-OpenSource
 
 This is a reduced open source project of the videogame Endciv. Third Party Assets have been removed.
+More Info at: https://www.indiedb.com/games/endciv
 
 Feedback and Help at:
 https://discord.gg/UC9PjhF
