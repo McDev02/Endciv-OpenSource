@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: crop_fruits
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114462658686931522}
+  - {fileID: 114963489713043240}
+--- !u!114 &114462658686931522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 1
+  MaxHealth: 0
+--- !u!114 &114963489713043240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50dee82d0cf76c444b3bd9098765d12e, type: 3}
+  m_Name: Endciv.CropFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  seeds: 1.5
+  waterConsumption: 0.2
+  waterMaxValue: 1
+  growTime: 40
+  fruitAmount:
+    min: 4
+    max: 5
+  fruit: None
+  views:
+  - {fileID: 1920239430532432, guid: 17eb817eb8cf4fb499a21857bcfa14b2, type: 2}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7ab5b28b8e25e478be0b1293d5b579, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  FoodDecay: 0
+  StorageCapacityMultipler: 1
+  DayTickLength: 800
+  YearDayLength: 40
+  GeneralEconomyValues:
+    ConstructionSpeed: 1
+    DemolitionSpeed: 3
+    ConstructionDecay: 0.2
+    GatheringSpeed: 0.18
+    StorageGatheringSpeed: 2
+    ProductionSpeed: 0.1
+  UnitSystemData:
+    hungerConsumptionCenter: 3
+    hungerConsumptionBalance: 0.025
+    thirstConsumptionCenter: 1.6
+    thirstConsumptionBalance: 0.2
+    conditionBias: 0.01
+    stressUnderWork: 0.5
+    stressUnderIdle: -0.05
+    stressUnderRelaxing: -0.65
+  GeneralSystemsData:
+    rainfallPerTile: 30
+    rainwaterCollectorFactor: 1
+    groundwaterCollectorFactor: 0.1
+    energyByWind: 1
+    energyBySolar: 1
+    fuelCombustionPerTick: 0.1
+    temperatureAdaption: 0.05
+  AgricultureSystemData:
+    cropsWateringThreshold: 0.3
+    cropsWateringBuffer: 0.5
+    cropsGrowthRate: 1
+  DebugModifers:
+    UnitHungerConsumption: 1
+    UnitThirstConsumption: 1
+  GlobalAIData:
+    ImmigrationBaseValue: 237
+    ImmigrationFactor: 0.1
+    NewTraderTime: 835
+    TraderWaitTicks: 250
+    NewDogTime: 326
+    DogSpawnFactor: 1
+  CityDensityViewThreshold: 2
+  PollutionViewThreshold: 1.5
+  GroundWaterViewThreshold: 1
+  CityDensityIterations: 4
+  CityDensityMaxValue: 10
+  PollutionMaxValue: 4
+  CityDensityMaxDistance: 16
+  CityDensityDistancePower: 0.7
+  PollutionDistancePower: 0.7
+  OpenAreaDistance: 3
+  pathfindingOpenAreaCost: 8
+  pathfindingTargetReachedBias: 8

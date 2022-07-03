@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: wirepole
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114994540394089910}
+  - {fileID: 114051592146432220}
+  - {fileID: 114533913633663790}
+  - {fileID: 114600812601746504}
+--- !u!114 &114051592146432220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faeada8bea702c74487993826184d221, type: 3}
+  m_Name: Endciv.StructureFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  providingTech: 0
+  requiredTech: 0200000006000000
+  views:
+  - {fileID: 1541378911992108, guid: 4b8bfc42f7b3088419db57b650e4f2fe, type: 2}
+--- !u!114 &114533913633663790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8b1cfe6c4eb254496657d8e5b4fc3b, type: 3}
+  m_Name: Endciv.ConstructionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  Category: electricity
+  ShowInConstructionMenu: 0
+  Cost:
+  - Amount: 4
+    ResourceID: scrap
+  - Amount: 3
+    ResourceID: electronic_parts
+  - Amount: 2
+    ResourceID: plastic
+  MaxConstructionPoints: 120
+  MaxWorkers: 1
+--- !u!114 &114600812601746504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  GridObjectData:
+    EntrancePoints: []
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 0
+    density: 0.5
+  GridRectType: 0
+  GridIsFlexible: 0
+  SizeX: 1
+  SizeY: 1
+  FlexibleSize:
+    min: 0
+    max: 0
+  FlexibleArea:
+    min: 0
+    max: 0
+  GridOffsetX: 0
+  GridOffsetY: 0
+  GridRectPadding: 0
+  VisualPadding: 0
+  Passability: 0.01
+  Enclosed: 0
+--- !u!114 &114994540394089910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  Invincible: 0
+  MaxHealth: 200

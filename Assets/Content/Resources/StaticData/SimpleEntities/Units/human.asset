@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: human
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114049314976933980}
+  - {fileID: 114305440804174764}
+  - {fileID: 114194531732327612}
+  - {fileID: 114225461420505082}
+  - {fileID: 114899590912486598}
+--- !u!114 &114049314976933980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 0
+  MaxHealth: 20
+--- !u!114 &114194531732327612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aac25b609969345b5d5c22856d0c03, type: 3}
+  m_Name: Endciv.GridAgentStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Speed: 1.8
+  WalkingAnimationSpeed: 1.2
+  SteeringSpeed: 2
+  Steering:
+    min: 2
+    max: 6
+  PathfindingCenterOffset: 0
+  destinationReachedBias: 0.3
+  openAreaMinimum: 0
+--- !u!114 &114225461420505082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b82be34fe3a18a4ab55d225fca7f67e, type: 3}
+  m_Name: Endciv.LivingBeingStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  consumeHunger:
+    childValue: 1.5
+    adultValue: 1.5
+    seniorValue: 1.5
+  maxHunger:
+    childValue: 125
+    adultValue: 125
+    seniorValue: 125
+  consumeThirst:
+    childValue: 0.8
+    adultValue: 0.8
+    seniorValue: 0.8
+  maxThirst:
+    childValue: 2
+    adultValue: 3
+    seniorValue: 2
+  innards:
+    childValue: 8
+    adultValue: 8
+    seniorValue: 8
+  meat:
+    childValue: 6
+    adultValue: 6
+    seniorValue: 6
+  exhaustionStateThreshold:
+    childValue: 0.35
+    adultValue: 0.35
+    seniorValue: 0.35
+  immobilizeStateThreshold:
+    childValue: 0.05
+    adultValue: 0.05
+    seniorValue: 0.05
+  ThirstUrgencyThreshold:
+    min: 0.3
+    max: 0.31
+  HungerUrgencyThreshold:
+    min: 0.25
+    max: 0.27
+  StressUrgencyThreshold:
+    min: 0.2
+    max: 0.21
+  HealthUrgencyThreshold:
+    min: 0.2
+    max: 0.21
+  startingAge: 5
+  adulthood: 18
+  lifeExpectancy: 80
+--- !u!114 &114305440804174764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ff0dd5e789f540be328c57f433029, type: 3}
+  m_Name: Endciv.UnitFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  adultMaleSizes:
+    min: 0.95
+    max: 1.05
+  adultFemaleSizes:
+    min: 0.9
+    max: 1
+  childMaleSizes:
+    min: 0.53
+    max: 0.66
+  childFemaleSizes:
+    min: 0.53
+    max: 0.66
+  unitType: 0
+  aiSettings: {fileID: 11400000, guid: 52c5ab518ef7ba04f9377aee94cc7222, type: 2}
+  views:
+  - {fileID: 1189696427755250, guid: 1ebc8d7ff07d3564ea94e577f39955d8, type: 2}
+--- !u!114 &114899590912486598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 50
+  FoodDecay: 0
+  FoodDecayUnpowered: 0

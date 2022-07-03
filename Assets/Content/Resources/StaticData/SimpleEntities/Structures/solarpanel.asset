@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: solarpanel
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114868117999244660}
+  - {fileID: 114649948247629936}
+  - {fileID: 114410240020904020}
+  - {fileID: 114845515937025958}
+  - {fileID: 114909298666100832}
+  - {fileID: 114857450844746368}
+--- !u!114 &114410240020904020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8b1cfe6c4eb254496657d8e5b4fc3b, type: 3}
+  m_Name: Endciv.ConstructionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Category: electricity
+  ShowInConstructionMenu: 1
+  Cost:
+  - Amount: 1
+    ResourceID: boards
+  - Amount: 4
+    ResourceID: solar_cell
+  MaxConstructionPoints: 450
+  MaxWorkers: 1
+--- !u!114 &114649948247629936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faeada8bea702c74487993826184d221, type: 3}
+  m_Name: Endciv.StructureFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  providingTech: 0
+  requiredTech: 020000000600000007000000
+  views:
+  - {fileID: 1594869609470436, guid: 434b6253f5f2ae34cb8c36cf969a947c, type: 2}
+  - {fileID: 1080711267641976, guid: d77dab6622d035a42893eca3596ae212, type: 2}
+--- !u!114 &114845515937025958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  GridObjectData:
+    EntrancePoints: []
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 0
+    density: 0.8
+  GridRectType: 0
+  GridIsFlexible: 0
+  SizeX: 1
+  SizeY: 1
+  FlexibleSize:
+    min: 0
+    max: 0
+  FlexibleArea:
+    min: 0
+    max: 0
+  GridOffsetX: 0
+  GridOffsetY: 0
+  GridRectPadding: 0
+  VisualPadding: 0.25
+  Passability: 0
+  Enclosed: 0
+--- !u!114 &114857450844746368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c91c4d5d6fd3841824026d4e709706, type: 3}
+  m_Name: Endciv.PowerSourceRenewableStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+  powerType: 0
+  powerConsumers: Endciv.ElectricityProducerStaticData
+--- !u!114 &114868117999244660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 0
+  MaxHealth: 40
+--- !u!114 &114909298666100832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27d6b39cd77be047bba241b93279912, type: 3}
+  m_Name: Endciv.ElectricityProducerStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+  Production: 300

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47c6f1655a698f448901ec49359c0c9, type: 3}
+  m_Name: tutorial_production
+  m_EditorClassIdentifier: 
+  ID: tutorial_production
+  ModelID: 
+  Title: Production of goods
+  Description: 
+  Objectives:
+  - {fileID: 11400000, guid: 49963b34bde4b224d8a02164b72240f1, type: 2}
+  - {fileID: 11400000, guid: 792a932574812124d98d7104ebce9a38, type: 2}
+  - {fileID: 11400000, guid: f60623b2e44de5e4e8a58774c9ba2fcf, type: 2}

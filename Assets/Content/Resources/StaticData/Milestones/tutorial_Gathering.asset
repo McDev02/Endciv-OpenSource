@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47c6f1655a698f448901ec49359c0c9, type: 3}
+  m_Name: tutorial_Gathering
+  m_EditorClassIdentifier: 
+  ID: tutorial_Gathering
+  ModelID: 
+  Title: Gather resources
+  Description: 
+  Objectives:
+  - {fileID: 11400000, guid: 5121c5edd607bfc429fbce5a05f04293, type: 2}
+  - {fileID: 11400000, guid: 149c368f24f936246b76a5b0123ddbed, type: 2}
+  - {fileID: 11400000, guid: b3cf9e426480c074a8d0264b53f22b3a, type: 2}
+  - {fileID: 11400000, guid: 04df7facc647f8c4cb2ceb59cf4be36d, type: 2}

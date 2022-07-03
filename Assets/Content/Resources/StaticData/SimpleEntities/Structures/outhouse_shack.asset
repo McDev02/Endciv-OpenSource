@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: outhouse_shack
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114013025119595568}
+  - {fileID: 114032316906448164}
+  - {fileID: 114902905524552284}
+  - {fileID: 114271137202339262}
+  - {fileID: 114245411000379926}
+  - {fileID: 114940641603280780}
+  - {fileID: 114061351550809494}
+--- !u!114 &114013025119595568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 0
+  MaxHealth: 40
+--- !u!114 &114032316906448164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faeada8bea702c74487993826184d221, type: 3}
+  m_Name: Endciv.StructureFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  providingTech: 0
+  requiredTech: 02000000
+  views:
+  - {fileID: 1631344349921160, guid: 313134243c21232428b4705eb4d30028, type: 2}
+--- !u!114 &114061351550809494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08a6b0e133856841b8911250407c2a5, type: 3}
+  m_Name: Endciv.PollutionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+--- !u!114 &114245411000379926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f5cf958cf1ff541b7bd37782c99939, type: 3}
+  m_Name: Endciv.UtilityStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+  MaxOccupants: 1
+  type: 0
+  waterConsumption: 0
+--- !u!114 &114271137202339262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  GridObjectData:
+    EntrancePoints:
+    - X: 1
+      Y: 3
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 1
+    density: 1
+  GridRectType: 0
+  GridIsFlexible: 0
+  SizeX: 3
+  SizeY: 3
+  FlexibleSize:
+    min: 0
+    max: 0
+  FlexibleArea:
+    min: 0
+    max: 0
+  GridOffsetX: 1
+  GridOffsetY: 1
+  GridRectPadding: 0
+  VisualPadding: 0
+  Passability: 0
+  Enclosed: 0
+--- !u!114 &114902905524552284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8b1cfe6c4eb254496657d8e5b4fc3b, type: 3}
+  m_Name: Endciv.ConstructionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Category: residents
+  ShowInConstructionMenu: 1
+  Cost:
+  - Amount: 2
+    ResourceID: scrap
+  - Amount: 5
+    ResourceID: boards
+  MaxConstructionPoints: 30
+  MaxWorkers: 2
+--- !u!114 &114940641603280780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 100
+  FoodDecay: 0
+  FoodDecayUnpowered: 0

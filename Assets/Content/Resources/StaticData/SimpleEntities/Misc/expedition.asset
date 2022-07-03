@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: expedition
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114584811963901694}
+  - {fileID: 114529142444437434}
+--- !u!114 &114529142444437434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c31a881466c32498fcc8963b149533, type: 3}
+  m_Name: Endciv.ExpeditionFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  viewPrefab: {fileID: 1336328983242016, guid: aa1c747bdef6d394dad576ede78cad5e, type: 2}
+  deathChance: 0.25
+  deathRatio:
+    min: 0.3
+    max: 0.8
+  lootCarryFactor:
+    min: 0.6
+    max: 1
+  lootPool:
+  - probability: 3
+    foodPool:
+    - cannedfood
+  - probability: 1
+    foodPool:
+    - water
+  - probability: 0.5
+    foodPool:
+    - tool_t1
+    - tool_t2
+    - tool_t1
+  - probability: 5
+    foodPool:
+    - cigaretts
+    - clothes
+    - electronic_parts
+    - scrap
+    - mechanic_parts
+  - probability: 2
+    foodPool:
+    - chemicals
+    - microchip
+    - battery
+    - electronic_parts
+--- !u!114 &114584811963901694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 1
+  MaxHealth: 100

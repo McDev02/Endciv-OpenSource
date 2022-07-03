@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: resource_pile
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114501984524800934}
+  - {fileID: 114534089247465338}
+  - {fileID: 114417442783633438}
+  - {fileID: 114012634095609482}
+  - {fileID: 114537807292545836}
+--- !u!114 &114012634095609482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 400
+  FoodDecay: 0
+  FoodDecayUnpowered: 0
+--- !u!114 &114417442783633438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d427a5350199de4687a4326262eff66, type: 3}
+  m_Name: Endciv.ResourcePileFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  resourcePileType: 0
+  Resources: []
+  views:
+  - {fileID: 1411434189598140, guid: 60771ba6bddbb2b4ea17e39023559e96, type: 2}
+--- !u!114 &114501984524800934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 1
+  MaxHealth: 0
+--- !u!114 &114534089247465338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  GridObjectData:
+    EntrancePoints: []
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 0
+    density: 1
+  GridRectType: 0
+  GridIsFlexible: 0
+  SizeX: 1
+  SizeY: 1
+  FlexibleSize:
+    min: 0
+    max: 0
+  FlexibleArea:
+    min: 0
+    max: 0
+  GridOffsetX: 0
+  GridOffsetY: 0
+  GridRectPadding: 0
+  VisualPadding: 0
+  Passability: 0.2
+  Enclosed: 0
+--- !u!114 &114537807292545836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e325f6074e61924890f6d75d75896b3, type: 3}
+  m_Name: Endciv.StoragePileFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1

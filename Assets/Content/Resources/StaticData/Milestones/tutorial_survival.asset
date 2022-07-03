@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47c6f1655a698f448901ec49359c0c9, type: 3}
+  m_Name: tutorial_survival
+  m_EditorClassIdentifier: 
+  ID: tutorial_survival
+  ModelID: 
+  Title: Assure survival
+  Description: 
+  Objectives:
+  - {fileID: 11400000, guid: ccc87fe708d64184b9a56e396abf467e, type: 2}
+  - {fileID: 11400000, guid: a55b2a8bb53cc8d45b795ece4cec73c7, type: 2}
+  - {fileID: 11400000, guid: c76b71b4e1b3f3b428ef48a2b17a9b22, type: 2}
+  - {fileID: 11400000, guid: 26d490d0271ca77468222cb2abdf8912, type: 2}

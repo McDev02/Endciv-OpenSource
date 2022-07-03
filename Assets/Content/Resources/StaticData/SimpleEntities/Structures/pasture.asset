@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: pasture
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114415949672951450}
+  - {fileID: 114198267222376440}
+  - {fileID: 114774971277774176}
+  - {fileID: 114364676012319886}
+  - {fileID: 114431066497694750}
+  - {fileID: 114220796939901956}
+--- !u!114 &114198267222376440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faeada8bea702c74487993826184d221, type: 3}
+  m_Name: Endciv.StructureFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  providingTech: 4
+  requiredTech: 02000000
+  views:
+  - {fileID: 1633303146377030, guid: a9f47edb70e02384782ad08649138fa9, type: 2}
+--- !u!114 &114220796939901956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe566605197faf348878eefec874b3cc, type: 3}
+  m_Name: Endciv.PastureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+  growSpeed: 1
+  healthfactor: 1
+  maxCattleMass: 800
+  Cattle:
+  - {fileID: 11400000, guid: bd6e175ea84dbd64cb130c2b88bf3e14, type: 2}
+  - {fileID: 11400000, guid: 95d852a9a4187b14d847d3c3d63c0d77, type: 2}
+  maxNutrition: 150
+  maxWater: 150
+  food:
+  - None
+  - wheat
+  - fruits
+--- !u!114 &114364676012319886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  GridObjectData:
+    EntrancePoints:
+    - X: 3
+      Y: 13
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 1
+    density: 0.4
+  GridRectType: 0
+  GridIsFlexible: 0
+  SizeX: 9
+  SizeY: 13
+  FlexibleSize:
+    min: 0
+    max: 0
+  FlexibleArea:
+    min: 0
+    max: 0
+  GridOffsetX: 1
+  GridOffsetY: 1
+  GridRectPadding: 0
+  VisualPadding: 0
+  Passability: 1
+  Enclosed: 0
+--- !u!114 &114415949672951450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 0
+  MaxHealth: 80
+--- !u!114 &114431066497694750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 999
+  FoodDecay: 1
+  FoodDecayUnpowered: 1
+--- !u!114 &114774971277774176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8b1cfe6c4eb254496657d8e5b4fc3b, type: 3}
+  m_Name: Endciv.ConstructionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Category: agriculture
+  ShowInConstructionMenu: 1
+  Cost:
+  - Amount: 12
+    ResourceID: boards
+  - Amount: 6
+    ResourceID: scrap
+  - Amount: 2
+    ResourceID: plastic
+  MaxConstructionPoints: 420
+  MaxWorkers: 3

@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: cow
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114049314976933980}
+  - {fileID: 114305440804174764}
+  - {fileID: 114194531732327612}
+  - {fileID: 114225461420505082}
+  - {fileID: 114649049699382402}
+  - {fileID: 114111697502986064}
+  - {fileID: 114182243310202454}
+--- !u!114 &114049314976933980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 0
+  MaxHealth: 40
+--- !u!114 &114111697502986064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9799013f2a3baf4b93913d7d15c5129, type: 3}
+  m_Name: Endciv.CattleStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  ProducedItem: milk
+  ProductionAmount: 25
+  ProductionCapacity: 40
+  RequiresHarvesting: 1
+  Leather: 5
+--- !u!114 &114182243310202454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4ee91c616209d642a48b027e67bdc80, type: 3}
+  m_Name: Endciv.ItemFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  IsStackable: 0
+  Mass: 100
+  Value: 10
+  Category: 30
+--- !u!114 &114194531732327612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aac25b609969345b5d5c22856d0c03, type: 3}
+  m_Name: Endciv.GridAgentStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Speed: 0.6
+  WalkingAnimationSpeed: 0.48
+  SteeringSpeed: 2
+  Steering:
+    min: 2
+    max: 6
+  PathfindingCenterOffset: 0
+  destinationReachedBias: 0.2
+  openAreaMinimum: 1
+--- !u!114 &114225461420505082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b82be34fe3a18a4ab55d225fca7f67e, type: 3}
+  m_Name: Endciv.LivingBeingStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  consumeHunger:
+    childValue: 5
+    adultValue: 5
+    seniorValue: 5
+  maxHunger:
+    childValue: 50
+    adultValue: 50
+    seniorValue: 50
+  consumeThirst:
+    childValue: 1
+    adultValue: 1
+    seniorValue: 1
+  maxThirst:
+    childValue: 20
+    adultValue: 20
+    seniorValue: 20
+  innards:
+    childValue: 50
+    adultValue: 50
+    seniorValue: 50
+  meat:
+    childValue: 130
+    adultValue: 130
+    seniorValue: 130
+  exhaustionStateThreshold:
+    childValue: 0.5
+    adultValue: 0.5
+    seniorValue: 0.5
+  immobilizeStateThreshold:
+    childValue: 0.05
+    adultValue: 0.05
+    seniorValue: 0.05
+  ThirstUrgencyThreshold:
+    min: 0.2
+    max: 0.21
+  HungerUrgencyThreshold:
+    min: 0.3
+    max: 0.7
+  StressUrgencyThreshold:
+    min: 0
+    max: 0
+  HealthUrgencyThreshold:
+    min: 0
+    max: 0
+  startingAge: 0.4
+  adulthood: 1
+  lifeExpectancy: 16
+--- !u!114 &114305440804174764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ff0dd5e789f540be328c57f433029, type: 3}
+  m_Name: Endciv.UnitFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  adultMaleSizes:
+    min: 0.95
+    max: 1.05
+  adultFemaleSizes:
+    min: 0.95
+    max: 1.05
+  childMaleSizes:
+    min: 0.4
+    max: 0.55
+  childFemaleSizes:
+    min: 0.4
+    max: 0.55
+  unitType: 1
+  aiSettings: {fileID: 11400000, guid: 2495ed9eca096a24097eefb39fdf2421, type: 2}
+  views:
+  - {fileID: 1895487392326434, guid: c5b542d8d552520429603599fc91c7fb, type: 3}
+--- !u!114 &114649049699382402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 15
+  FoodDecay: 0
+  FoodDecayUnpowered: 0

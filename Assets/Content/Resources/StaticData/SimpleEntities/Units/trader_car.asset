@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: trader_car
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114049314976933980}
+  - {fileID: 114305440804174764}
+  - {fileID: 114194531732327612}
+  - {fileID: 114899590912486598}
+--- !u!114 &114049314976933980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 1
+  MaxHealth: 200
+--- !u!114 &114194531732327612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aac25b609969345b5d5c22856d0c03, type: 3}
+  m_Name: Endciv.GridAgentStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Speed: 5
+  WalkingAnimationSpeed: 1
+  SteeringSpeed: 1
+  Steering:
+    min: 4
+    max: 2
+  PathfindingCenterOffset: -1
+  destinationReachedBias: 1.5
+  openAreaMinimum: 4
+--- !u!114 &114305440804174764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ff0dd5e789f540be328c57f433029, type: 3}
+  m_Name: Endciv.UnitFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  adultMaleSizes:
+    min: 1
+    max: 1
+  adultFemaleSizes:
+    min: 1
+    max: 1
+  childMaleSizes:
+    min: 1
+    max: 1
+  childFemaleSizes:
+    min: 1
+    max: 1
+  unitType: 2
+  aiSettings: {fileID: 11400000, guid: 2495ed9eca096a24097eefb39fdf2421, type: 2}
+  views:
+  - {fileID: 1501738304336476, guid: 4e17aecbf0fcc5942a8cdd3db47f4a33, type: 2}
+  - {fileID: 1554279515913862, guid: 7ccb7b0697aa0cc44b84e6a37d63d069, type: 2}
+--- !u!114 &114899590912486598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 80
+  FoodDecay: 0
+  FoodDecayUnpowered: 0

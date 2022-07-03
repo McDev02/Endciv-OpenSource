@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba2d00860516a54598ec2308dd4e9bb, type: 3}
+  m_Name: tut_production_03
+  m_EditorClassIdentifier: 
+  ID: tut_production_03
+  ModelID: 
+  Title: Production workers
+  IconID: default
+  Description: Production workers
+  objectiveWindowPages:
+  - '#Stories/milestoneinfo/tutorial/06orderproduction_b'
+  displayObjectiveWindowAutomatically: 1
+  notificationType: 1
+  Trigger: []
+  Completion:
+  - conditionOperator: 5
+    valueName: totalOccupation_Production
+    isRelative: 0
+    valueType: 0
+    intValue: 1
+    intOffset: 0
+    floatValue: 0
+    floatOffset: 0
+    doubleValue: 0
+    doubleOffset: 0
+    stringValue: 
+    boolValue: 1
+    vector2Value: {x: 0, y: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector2IntValue: {x: 0, y: 0}
+    vector3IntValue: {x: 0, y: 0, z: 0}

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: farmland_area
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114983326587889246}
+  - {fileID: 114355331373556082}
+  - {fileID: 114042166090187830}
+  - {fileID: 114515189437391774}
+  - {fileID: 114294047216607896}
+  - {fileID: 114870352935222610}
+--- !u!114 &114042166090187830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8b1cfe6c4eb254496657d8e5b4fc3b, type: 3}
+  m_Name: Endciv.ConstructionStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Category: agriculture
+  ShowInConstructionMenu: 1
+  Cost: []
+  MaxConstructionPoints: 0
+  MaxWorkers: 1
+--- !u!114 &114294047216607896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecadf2c4cca7e14419d05c8829c39239, type: 3}
+  m_Name: Endciv.InventoryStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  MaxCapacity: 999
+  FoodDecay: 1
+  FoodDecayUnpowered: 1
+--- !u!114 &114355331373556082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faeada8bea702c74487993826184d221, type: 3}
+  m_Name: Endciv.StructureFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  providingTech: 0
+  requiredTech: 0200000003000000
+  views:
+  - {fileID: 1633303146377030, guid: 0048fa83ef5f4dd479018b7a6aa84bcb, type: 2}
+--- !u!114 &114515189437391774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5254f9fa588f8f64da4eb468e653b93a, type: 3}
+  m_Name: Endciv.GridObjectFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  GridObjectData:
+    EntrancePoints: []
+    Rect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1
+      m_Length: 1
+      Minimum:
+        X: 0
+        Y: 0
+      Maximum:
+        X: 0
+        Y: 0
+    EdgeIsWall: 0
+    density: 0.2
+  GridRectType: 4
+  GridIsFlexible: 1
+  SizeX: 1
+  SizeY: 7
+  FlexibleSize:
+    min: 2
+    max: 8
+  FlexibleArea:
+    min: 4
+    max: 64
+  GridOffsetX: 0
+  GridOffsetY: 0
+  GridRectPadding: 0
+  VisualPadding: 0.1
+  Passability: 1
+  Enclosed: 1
+--- !u!114 &114870352935222610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcd4772716ee4d4cb82a31670486376, type: 3}
+  m_Name: Endciv.FarmlandStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 0
+  growSpeed: 1
+  nutritionFactor: 1
+  CropIDs:
+  - crop_potato
+  - crop_vegetables
+  - crop_wheat
+--- !u!114 &114983326587889246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1779f1548cba949b63a77f92963aca, type: 3}
+  m_Name: Endciv.EntityFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  autoRun: 1
+  Invincible: 1
+  MaxHealth: 5

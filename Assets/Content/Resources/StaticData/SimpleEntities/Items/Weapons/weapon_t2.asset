@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a516a973def4684f99f17dcb97c7ba4, type: 3}
+  m_Name: weapon_t2
+  m_EditorClassIdentifier: 
+  ModelID: 
+  FeatureStaticData:
+  - {fileID: 114776273504092912}
+  - {fileID: 114979614440598878}
+--- !u!114 &114776273504092912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4ee91c616209d642a48b027e67bdc80, type: 3}
+  m_Name: Endciv.ItemFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  IsStackable: 1
+  Mass: 2
+  Value: 22
+  Category: 8
+--- !u!114 &114979614440598878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34b51115c62cc44f9f7eaa2522fe899, type: 3}
+  m_Name: Endciv.WeaponFeatureStaticData
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000}
+  Damage: 8
