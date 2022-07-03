@@ -14,12 +14,12 @@ This project is made public for observation. The Project was originally made wit
 
 ## Contents and Infos
 * There is good code and bad code collected over a decade. This does not reflect my current personal standards.
-* A custom multithreadded Pathfinder (A* and Flowfields)
+* A custom multithreaded Pathfinder (A* and Flowfields)
 * A custom async LOD system with certain benefits
 * A mesh merging and automation tool including a simple character generator
 * Custom Localization system
 * Savegame and game settings system
-* An Entity-Component System with a specific workflow to be careful about. If you recieve an Error when making changes first validate the data. Code is more efficient because we assume that Entity data is always correct.
+* An Entity-Component System with a specific workflow to be careful about. If you receive an Error when making changes first validate the data. Code is more efficient because we assume that Entity data is always correct.
 * A system of AI, city building and economy. Daytime cycles, energy management etc.
 
 ## Legal Notice
