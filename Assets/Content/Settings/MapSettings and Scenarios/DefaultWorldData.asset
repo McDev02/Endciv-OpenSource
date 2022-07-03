@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7ecd7cc68a92340be10978061f67a6, type: 3}
+  m_Name: DefaultWorldData
+  m_EditorClassIdentifier: 
+  morningRelativeLength: 10
+  morningWeather: {fileID: 11400000, guid: ad99490c7957b79428043ba39399d967, type: 2}
+  noonRelativeLength: 40
+  noonWeather: {fileID: 11400000, guid: ccc09731acf5a0145b7537f822298f1f, type: 2}
+  eveningRelativeLength: 10
+  eveningWeather: {fileID: 11400000, guid: a2957b900fd9f32499baf87e0b00283a, type: 2}
+  nightRelativeLength: 30
+  nightWeather: {fileID: 11400000, guid: 8f08e01fa13cbad44b86a2f69292cdeb, type: 2}
+  rainyWeather: {fileID: 11400000, guid: 51ae452ec9da8ff48850fcda458aefeb, type: 2}
+  springRelativeDays: 20
+  springData: {fileID: 11400000, guid: 49643baa82416684487c51b9cc18dc0f, type: 2}
+  summerRelativeDays: 20
+  summerData: {fileID: 11400000, guid: 311c00b5f47a5da43b9a021507d0a0ef, type: 2}
+  fallRelativeDays: 20
+  fallData: {fileID: 11400000, guid: 8ab5079d3f7629f4eb89a771d06e92fe, type: 2}
+  winterRelativeDays: 20
+  winterData: {fileID: 11400000, guid: 2f8ec1df07682044cbc69244a7de4806, type: 2}

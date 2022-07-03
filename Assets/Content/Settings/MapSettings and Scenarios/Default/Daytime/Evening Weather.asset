@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4969c45eba43a2140b1055561e689a5a, type: 3}
+  m_Name: Evening Weather
+  m_EditorClassIdentifier: 
+  sunData:
+    Hue: 0.07
+    HueFade: 1
+    Saturation: 0.7
+    SaturationFade: 1
+    Brightness: 0.9
+    BrightnessMultiply: 0
+    ShadowSoftness: 8
+    ShadowAffection: 1
+  ambientData:
+    SkyColor: {r: 0.52400005, g: 0.6468387, b: 1, a: 0}
+    EquatorColor: {r: 0.59504485, g: 0.52400005, b: 1, a: 0}
+    GroundColor: {r: 0.33254582, g: 0.21625882, b: 0.7921569, a: 0}
+    ColorMultiply: 0
+    Saturation: 1
+    Brightness: 0.7
+    ReflectionIntensity: 0.7
+  weatherData:
+    SunPower: 0.05
+    HumidDryout: 0.005
+    TemperatureOffset: -4
+    TemperatureAdditive: 0
+  fogData:
+    Hue: 0.7
+    HueFade: 1
+    Saturation: 0.58
+    SaturationFade: 1
+    Brightness: 0.82
+    Distance: 0
+    Density: 0.005
+    DensityBlendExponent: 1
+    BrightnessMultiply: 0
+  cameraFX:
+    LuminanceTonemapper: 1.5
+    LuminanceMultiply: 0
+  aiData:
+    BirdsFlying: {x: 10, y: 20}
+    BirdsLanding: {x: 0, y: 10}
+    CrowsFlying: {x: 3, y: 8}
+    Multiply: 0
+  locaID: world/data/evening

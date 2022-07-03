@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9516a62bd856834dbde36c62270976b, type: 3}
+  m_Name: TutorialMapSettings
+  m_EditorClassIdentifier: 
+  ID: tutorial
+  GeneratePlayerCity: 0
+  resourceDensity: 0.18
+  startingCitizens: 5
+  startingResources:
+    waterFactor: 2
+    waterMin: 2
+    foodFactor: 12
+    foodMin: 12
+    foodPool:
+    - cannedfood
+    - meat
+    - potato
+    materialFactor: 0
+    materialMin: 0
+    materialPool: []
+    weaponsFactor: 0
+    weaponsMin: 1
+    weaponsPool:
+    - weapon_t1
+  terrainSettings:
+    Preset: {fileID: 11400000, guid: e6efcdaf589ccf8428248509aed590ba, type: 2}
+    Seed: 9854364
+    FullMapSize: 192
+    FullMapGridSize: 0
+    safePadding: 3
+  worldData: {fileID: 11400000, guid: ecf13e0fd7d87cd46bcc40fbff58f2d1, type: 2}
+  Scenarios:
+  - {fileID: 114244806661868820, guid: 8f0279e1987c4ee4a95a53a231df9e1f, type: 2}
+  userSettings:
+    enableTerrainSizeSettings: 0
+    minMapSize: 2
+    maxMapSize: 2
+    defaultMapSize: 2
+    enableResourcesSettings: 0
+    minResourceSize: 2
+    maxResourceSize: 2
+    defaultResourceSize: 2
+    enableCitizenSettings: 0
+    minCitizens: 5
+    maxCitizens: 5
+    defaultCitizens: 5
+    enableStartingResourcesSettings: 0
+    minStartingResourceSize: 0
+    maxStartingResourceSize: 0
+    defaultStartingResourceSize: 0
+  generationData: {fileID: 0}
+  title: '#Stories/Scenarios/tutorialName'
+  description: '#Stories/Scenarios/tutorialDesc'

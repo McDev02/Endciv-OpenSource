@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 313576a101d89ca4a8b967350c4e552e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Human_Rig_010:arm_l
+    100004: Human_Rig_010:arm_r
+    100006: Human_Rig_010:chest
+    100008: Human_Rig_010:elbow_l
+    100010: Human_Rig_010:elbow_r
+    100012: Human_Rig_010:foot_l
+    100014: Human_Rig_010:foot_r
+    100016: Human_Rig_010:hand_l
+    100018: Human_Rig_010:hand_r
+    100020: Human_Rig_010:head
+    100022: Human_Rig_010:hip
+    100024: Human_Rig_010:knee_l
+    100026: Human_Rig_010:knee_r
+    100028: Human_Rig_010:leg_l
+    100030: Human_Rig_010:leg_r
+    100032: Human_Rig_010:toe_l
+    100034: Human_Rig_010:toe_r
+    100036: arm_l
+    100038: arm_r
+    100040: chest
+    100042: elbow_l
+    100044: elbow_r
+    100046: foot_l
+    100048: foot_r
+    100050: hand_l
+    100052: hand_r
+    100054: head
+    100056: hip
+    100058: knee_l
+    100060: knee_r
+    100062: leg_l
+    100064: leg_r
+    100066: toe_l
+    100068: toe_r
+    400000: //RootNode
+    400002: Human_Rig_010:arm_l
+    400004: Human_Rig_010:arm_r
+    400006: Human_Rig_010:chest
+    400008: Human_Rig_010:elbow_l
+    400010: Human_Rig_010:elbow_r
+    400012: Human_Rig_010:foot_l
+    400014: Human_Rig_010:foot_r
+    400016: Human_Rig_010:hand_l
+    400018: Human_Rig_010:hand_r
+    400020: Human_Rig_010:head
+    400022: Human_Rig_010:hip
+    400024: Human_Rig_010:knee_l
+    400026: Human_Rig_010:knee_r
+    400028: Human_Rig_010:leg_l
+    400030: Human_Rig_010:leg_r
+    400032: Human_Rig_010:toe_l
+    400034: Human_Rig_010:toe_r
+    400036: arm_l
+    400038: arm_r
+    400040: chest
+    400042: elbow_l
+    400044: elbow_r
+    400046: foot_l
+    400048: foot_r
+    400050: hand_l
+    400052: hand_r
+    400054: head
+    400056: hip
+    400058: knee_l
+    400060: knee_r
+    400062: leg_l
+    400064: leg_r
+    400066: toe_l
+    400068: toe_r
+    7400000: GatherResources_forExport_v002
+    7400002: Gathering
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Gathering
+      takeName: CINEMA_4D_Main
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.038
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f024cfd6579a0bc41b928d229b64c3bd,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

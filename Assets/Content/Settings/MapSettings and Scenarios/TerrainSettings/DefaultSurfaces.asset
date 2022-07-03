@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c3d0d1d8549f549a35cf5d0808af0d, type: 3}
+  m_Name: DefaultSurfaces
+  m_EditorClassIdentifier: 
+  TerrainBlendMaterial: {fileID: 2100000, guid: fb35630aad202854e8ba60dd75a6c143,
+    type: 2}
+  ErosionIteration: 3
+  ErosionCarryAmount: 2
+  Surfaces:
+  - Name: Soil
+    Texture: {fileID: 2800000, guid: 337a57a41ec52e8429d753a166ee753b, type: 3}
+    NormalMap: {fileID: 2800000, guid: dcd17524cdf87d04b968b5702d8693e1, type: 3}
+    BlendEdge: 2
+    TextureTileSize: 24
+    Beauty: 0.3
+    Pollution: 0
+    Fertility: 0.2
+  - Name: Grass
+    Texture: {fileID: 2800000, guid: 98d0093d120aa1f43b263c5a393d9153, type: 3}
+    NormalMap: {fileID: 2800000, guid: 219f2649e5493a240a186a24e53d4ea6, type: 3}
+    BlendEdge: 2
+    TextureTileSize: 24
+    Beauty: 0.6
+    Pollution: -0.2
+    Fertility: 0.6
+  - Name: Dirt
+    Texture: {fileID: 2800000, guid: 9724c3d916491ee43bd8365070aeeb01, type: 3}
+    NormalMap: {fileID: 2800000, guid: da599bc774a722145889e98cad8ae20c, type: 3}
+    BlendEdge: 2
+    TextureTileSize: 24
+    Beauty: -0.1
+    Pollution: 0.2
+    Fertility: -0.2
+  - Name: Waste
+    Texture: {fileID: 2800000, guid: 57834066763f3eb47befd49cb10f9f83, type: 3}
+    NormalMap: {fileID: 2800000, guid: 033fffb0d913eaa4a85e5e096b1e8e69, type: 3}
+    BlendEdge: 1
+    TextureTileSize: 24
+    Beauty: -0.5
+    Pollution: 0.6
+    Fertility: -0.5
+  SnowSurface:
+    Name: Snow
+    Texture: {fileID: 2800000, guid: 68c5b14cc7d4ae6478ddcb0f152f8b12, type: 3}
+    NormalMap: {fileID: 2800000, guid: 0200567d97aaff04eaec0730d58af254, type: 3}
+    BlendEdge: 1
+    TextureTileSize: 16
+    Beauty: 0.2
+    Pollution: 0
+    Fertility: -0.6
+  SnowNoiseTexture: {fileID: 2800000, guid: b34b74ed35453604e9d678283fc44777, type: 3}
+  SnowNoiseTileSize: 16
+  Layers: []

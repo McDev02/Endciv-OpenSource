@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29160c2228d72524c98ae2cea4540280, type: 3}
+  m_Name: SeasonWinter
+  m_EditorClassIdentifier: 
+  Altitude: 80
+  Azimuth: 28.1
+  GrassColor: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+  GrassGrowth: -0.15
+  BaseTemperature: -5
+  SunPower: 0.9
+  cloudProbability: 0.1
+  stormProbability: -0.27
+  rainProbability: 0
+  SnowProbability: 0
+  VegetationGrowth: 0
+  locaID: 

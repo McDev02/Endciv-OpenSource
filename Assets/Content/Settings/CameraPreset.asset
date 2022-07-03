@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b403b6200a004a4b8f2dbe7e4b728ed, type: 3}
+  m_Name: CameraPreset
+  m_EditorClassIdentifier: 
+  PosX:
+    Speed: 100
+    Adaption: 16
+    Min: 0
+    Max: 192
+  PosY:
+    Speed: 100
+    Adaption: 16
+    Min: 0
+    Max: 192
+  sprintPanFactor: 2.5
+  Pitch:
+    Speed: 1
+    Adaption: 16
+    Min: 37.5
+    Max: 98
+  minPitchByDistance:
+    min: 25
+    max: 50
+  Yaw:
+    Speed: 80
+    Adaption: 16
+    Min: 0
+    Max: 360
+  Zoom:
+    Speed: 24
+    Adaption: 6
+    Min: 14
+    Max: 60

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e4d9d5d06f3e049a468a7c0fcbba96, type: 3}
+  m_Name: Male_clothes
+  m_EditorClassIdentifier: 
+  MaleOrFemale: 1
+  bodyTexture: {fileID: 2800000, guid: f8f5fa73708ef494ea267348c5e2daac, type: 3}
+  headTexture: {fileID: 2800000, guid: 2444451d8a2625946adb2df01be77d14, type: 3}
+  headHairTextures:
+  - {fileID: 2800000, guid: d7f127e0a01785041825f5b42f4d3158, type: 3}
+  - {fileID: 2800000, guid: e43dc2a0c71e0724bb32df5ab7c1b162, type: 3}
+  - {fileID: 2800000, guid: 83fe5221c3016d9448bdbddd8b0efa2b, type: 3}
+  shirtsTexture:
+  - {fileID: 2800000, guid: 88da93b5db1a6f744a4a2c70aa4a3fe7, type: 3}
+  - {fileID: 2800000, guid: 550476ff47e9b874280829b7dbbaeb84, type: 3}
+  - {fileID: 2800000, guid: c20ba03c29c027443801684dda8100c5, type: 3}
+  - {fileID: 2800000, guid: 0c356df9ba88eef48b293740a6671652, type: 3}
+  pantsTexture:
+  - {fileID: 2800000, guid: 9c52b3804e399394588a980757e859df, type: 3}
+  - {fileID: 2800000, guid: 6786ed2415edf3d4aa7697d24049eff4, type: 3}
+  - {fileID: 2800000, guid: 23b473353c07a5d47bfc34e72f16d575, type: 3}
+  hairTexture: {fileID: 2800000, guid: b655eb8f6aeebfb48844f05bbca944ac, type: 3}
+  miscTexture: {fileID: 0}
+  bodyMesh: {fileID: 4300006, guid: f024cfd6579a0bc41b928d229b64c3bd, type: 3}
+  headMesh: {fileID: 4300000, guid: f024cfd6579a0bc41b928d229b64c3bd, type: 3}
+  hairMesh: {fileID: 4300010, guid: f024cfd6579a0bc41b928d229b64c3bd, type: 3}
+  miscMesh: {fileID: 4300008, guid: f024cfd6579a0bc41b928d229b64c3bd, type: 3}

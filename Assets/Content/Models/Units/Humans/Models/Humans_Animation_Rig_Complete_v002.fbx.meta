@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: f024cfd6579a0bc41b928d229b64c3bd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm_l
+    100002: arm_l 1
+    100004: arm_l 2
+    100006: arm_l_ctrl_group
+    100008: arm_l_ctrl_group1
+    100010: arm_l_grp
+    100012: arm_l_grp 1
+    100014: arm_r
+    100016: Body_female_1
+    100018: Body_female_2_1
+    100020: Body_female_nude_1
+    100022: Body_male_1
+    100024: Body_male_nude_1
+    100026: Bones
+    100028: chest
+    100030: chest 1
+    100032: ControlGroup
+    100034: elbow_l
+    100036: elbow_l 1
+    100038: elbow_l 2
+    100040: elbow_l_grp
+    100042: elbow_l_grp 1
+    100044: elbow_r
+    100046: foot_l
+    100048: foot_l 1
+    100050: foot_r
+    100052: foot_r 1
+    100054: Hair_female_6
+    100056: hand_l
+    100058: hand_l 1
+    100060: hand_l 2
+    100062: hand_l_grp
+    100064: hand_l_grp 1
+    100066: hand_r
+    100068: Hat_male
+    100070: head
+    100072: head 1
+    100074: Head_2
+    100076: hip
+    100078: hips
+    100080: //RootNode
+    100082: knee_l
+    100084: knee_r
+    100086: leg_l
+    100088: leg_r
+    100090: Meshes
+    100092: root
+    100094: toe_l
+    100096: toe_r
+    400000: arm_l
+    400002: arm_l 1
+    400004: arm_l 2
+    400006: arm_l_ctrl_group
+    400008: arm_l_ctrl_group1
+    400010: arm_l_grp
+    400012: arm_l_grp 1
+    400014: arm_r
+    400016: Body_female_1
+    400018: Body_female_2_1
+    400020: Body_female_nude_1
+    400022: Body_male_1
+    400024: Body_male_nude_1
+    400026: Bones
+    400028: chest
+    400030: chest 1
+    400032: ControlGroup
+    400034: elbow_l
+    400036: elbow_l 1
+    400038: elbow_l 2
+    400040: elbow_l_grp
+    400042: elbow_l_grp 1
+    400044: elbow_r
+    400046: foot_l
+    400048: foot_l 1
+    400050: foot_r
+    400052: foot_r 1
+    400054: Hair_female_6
+    400056: hand_l
+    400058: hand_l 1
+    400060: hand_l 2
+    400062: hand_l_grp
+    400064: hand_l_grp 1
+    400066: hand_r
+    400068: Hat_male
+    400070: head
+    400072: head 1
+    400074: Head_2
+    400076: hip
+    400078: hips
+    400080: //RootNode
+    400082: knee_l
+    400084: knee_r
+    400086: leg_l
+    400088: leg_r
+    400090: Meshes
+    400092: root
+    400094: toe_l
+    400096: toe_r
+    2100000: Hair_female
+    2100002: Female
+    2100004: Male
+    2100006: male_hat
+    4300000: Head_2
+    4300002: Body_female_nude_1
+    4300004: Body_female_1
+    4300006: Body_male_1
+    4300008: Hat_male
+    4300010: Hair_female_6
+    4300012: Body_female_2_1
+    4300014: Body_male_nude_1
+    9500000: //RootNode
+    13700000: Body_female_1
+    13700002: Body_female_2_1
+    13700004: Body_female_nude_1
+    13700006: Body_male_1
+    13700008: Body_male_nude_1
+    13700010: Hair_female_6
+    13700012: Hat_male
+    13700014: Head_2
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.038
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.00037999998
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 80
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

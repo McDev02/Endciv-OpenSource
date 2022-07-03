@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715556205994618}
+  m_IsPrefabAsset: 1
+--- !u!1 &1715556205994618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755395230191008}
+  - component: {fileID: 114244806661868820}
+  m_Layer: 0
+  m_Name: TutorialScenario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755395230191008
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715556205994618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 570, y: 60, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114244806661868820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715556205994618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3772b662b5923d14d918434dab89c450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Milestones:
+  - {fileID: 11400000, guid: 1fb3e56f1ddbac34b800651ce1c58b09, type: 2}
+  - {fileID: 11400000, guid: cd1b8dc0c491cbc4c8e3d356722891ab, type: 2}
+  - {fileID: 11400000, guid: c7a7ad7b53319a6498bdbd5e1700d575, type: 2}
+  - {fileID: 11400000, guid: 549c9d357994a6747a12a850fbbbc94b, type: 2}
+  - {fileID: 11400000, guid: c34bdd7d2a6b2c249aa0a10e14e53ba9, type: 2}
+  - {fileID: 11400000, guid: f445d353a82688142bbf5aca60821486, type: 2}
+  introductionWindowPrefab: {fileID: 114633588751989226, guid: 575845a45f6133d4fa97ab551000538d,
+    type: 2}
+  endWindowPrefab: {fileID: 114874459706860510, guid: 7aa9c1f1c6268fc44ae305c56ea54ebb,
+    type: 2}

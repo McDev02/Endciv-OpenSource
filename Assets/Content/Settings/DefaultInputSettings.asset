@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1573ecd0fc72342ab06e315b43e8ed, type: 3}
+  m_Name: DefaultInputSettings
+  m_EditorClassIdentifier: 
+  actions:
+  - actionName: ToggleGUI
+    editByUser: 1
+    keys: 20000000
+  - actionName: ToggleIngameMenu
+    editByUser: 1
+    keys: 1b000000
+  - actionName: RotateBuildingCCW
+    editByUser: 1
+    keys: 71000000
+  - actionName: RotateBuildingCW
+    editByUser: 1
+    keys: 65000000
+  - actionName: QuickSave
+    editByUser: 1
+    keys: 22010000
+  - actionName: ToggleFPSPanel
+    editByUser: 0
+    keys: 24010000
+  - actionName: PauseGame
+    editByUser: 1
+    keys: 70000000
+  - actionName: CycleModel
+    editByUser: 1
+    keys: 63000000
+  - actionName: OpenConsole
+    editByUser: 1
+    keys: 17010000
+  - actionName: CycleThroughStructures
+    editByUser: 1
+    keys: 68000000
+  - actionName: CycleThroughCitizens
+    editByUser: 1
+    keys: 6a000000

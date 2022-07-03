@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c114f19f4a0f55e489a70b077d8b4f1a, type: 3}
+  m_Name: GameGenerationData
+  m_EditorClassIdentifier: 
+  startingResources:
+  - waterFactor: 0.75
+    waterMin: 2
+    foodFactor: 4
+    foodMin: 10
+    foodPool:
+    - cannedfood
+    - potato
+    - meat
+    materialFactor: 0
+    materialMin: 0
+    materialPool:
+    - tarp
+    - boards
+    - scrap
+    weaponsFactor: 0
+    weaponsMin: 0
+    weaponsPool:
+    - weapon_t1
+    - weapon_t2
+  - waterFactor: 1.5
+    waterMin: 4
+    foodFactor: 8
+    foodMin: 20
+    foodPool:
+    - cannedfood
+    - potato
+    - meat
+    materialFactor: 0
+    materialMin: 0
+    materialPool: []
+    weaponsFactor: 0.2
+    weaponsMin: 1
+    weaponsPool:
+    - weapon_t1
+  - waterFactor: 2.5
+    waterMin: 6
+    foodFactor: 14
+    foodMin: 30
+    foodPool:
+    - cannedfood
+    - potato
+    - meat
+    materialFactor: 3
+    materialMin: 15
+    materialPool:
+    - tarp
+    - boards
+    - scrap
+    weaponsFactor: 0.25
+    weaponsMin: 2
+    weaponsPool:
+    - weapon_t1
+  mapResourcesFactor:
+  - 0.08
+  - 0.12
+  - 0.15
