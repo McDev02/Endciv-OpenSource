@@ -17,7 +17,7 @@ This project is made public for observation. The Project was originally made wit
 * An Entity-Component System with a specific workflow to be careful about. If you recieve an Error when making changes first validate the data. Code is more efficient because we assume that Entity data is always correct.
 * A system of AI, city building and economy. Daytime cycles, energy management etc.
 
-
+## Legal Notice
 Do not simply copy and resell contents of this repository or the full game. You are not allowed to use the ENDCIV Logo or name for commercial use.
 If you make your own creative work you are allowed to use any contents of this repository if you follow the license requirements of Third Party assets (Assets/Contents/Third Party).
 
