@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 5042d33e0cb30ca44a3333decf8e5f3f
+timeCreated: 1448856402
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Walls
+    100004: Walls_10
+    100006: Walls_11
+    100008: Walls_12
+    100010: Walls_13
+    100012: Walls_14
+    100014: Walls_15
+    100016: Walls_2
+    100018: Walls_3
+    100020: Walls_4
+    100022: Walls_5
+    100024: Walls_6
+    100026: Walls_7
+    100028: Walls_8
+    100030: Walls_9
+    400000: //RootNode
+    400002: Walls
+    400004: Walls_10
+    400006: Walls_11
+    400008: Walls_12
+    400010: Walls_13
+    400012: Walls_14
+    400014: Walls_15
+    400016: Walls_2
+    400018: Walls_3
+    400020: Walls_4
+    400022: Walls_5
+    400024: Walls_6
+    400026: Walls_7
+    400028: Walls_8
+    400030: Walls_9
+    2300000: Walls
+    2300002: Walls_10
+    2300004: Walls_11
+    2300006: Walls_12
+    2300008: Walls_13
+    2300010: Walls_14
+    2300012: Walls_15
+    2300014: Walls_2
+    2300016: Walls_3
+    2300018: Walls_4
+    2300020: Walls_5
+    2300022: Walls_6
+    2300024: Walls_7
+    2300026: Walls_8
+    2300028: Walls_9
+    3300000: Walls
+    3300002: Walls_10
+    3300004: Walls_11
+    3300006: Walls_12
+    3300008: Walls_13
+    3300010: Walls_14
+    3300012: Walls_15
+    3300014: Walls_2
+    3300016: Walls_3
+    3300018: Walls_4
+    3300020: Walls_5
+    3300022: Walls_6
+    3300024: Walls_7
+    3300026: Walls_8
+    3300028: Walls_9
+    4300000: Walls
+    4300002: Walls_2
+    4300004: Walls_3
+    4300006: Walls_4
+    4300008: Walls_5
+    4300010: Walls_6
+    4300012: Walls_7
+    4300014: Walls_8
+    4300016: Walls_9
+    4300018: Walls_10
+    4300020: Walls_11
+    4300022: Walls_12
+    4300024: Walls_13
+    4300026: Walls_14
+    4300028: Walls_15
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Walls
+        weight: 1
+      - path: Walls_2
+        weight: 1
+      - path: Walls_3
+        weight: 1
+      - path: Walls_4
+        weight: 1
+      - path: Walls_5
+        weight: 1
+      - path: Walls_6
+        weight: 1
+      - path: Walls_7
+        weight: 1
+      - path: Walls_8
+        weight: 1
+      - path: Walls_9
+        weight: 1
+      - path: Walls_10
+        weight: 1
+      - path: Walls_11
+        weight: 1
+      - path: Walls_12
+        weight: 1
+      - path: Walls_13
+        weight: 1
+      - path: Walls_14
+        weight: 1
+      - path: Walls_15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

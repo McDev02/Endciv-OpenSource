@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 597e2dfcae057a64cbcf7d7fd90ec4b1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: scrappile_m
+    100004: scrappile_s
+    100006: scrapyard
+    100008: woodpile_m
+    100010: woodpile_s
+    100012: Corner
+    100014: Entrance
+    100016: fences
+    100018: line1
+    100020: line2
+    100022: farmland_m
+    100024: farmland_s
+    100026: pasture_m
+    100028: hut
+    100030: hutch
+    100032: scrapyardpile
+    400000: //RootNode
+    400002: scrappile_m
+    400004: scrappile_s
+    400006: scrapyard
+    400008: woodpile_m
+    400010: woodpile_s
+    400012: Corner
+    400014: Entrance
+    400016: fences
+    400018: line1
+    400020: line2
+    400022: farmland_m
+    400024: farmland_s
+    400026: pasture_m
+    400028: hut
+    400030: hutch
+    400032: scrapyardpile
+    2100000: scrapyard
+    2300000: //RootNode
+    2300002: scrappile_m
+    2300004: scrappile_s
+    2300006: scrapyard
+    2300008: woodpile_m
+    2300010: woodpile_s
+    2300012: Corner
+    2300014: Entrance
+    2300016: line1
+    2300018: line2
+    2300020: farmland_m
+    2300022: farmland_s
+    2300024: pasture_m
+    2300026: hut
+    2300028: hutch
+    2300030: scrapyardpile
+    3300000: //RootNode
+    3300002: scrappile_m
+    3300004: scrappile_s
+    3300006: scrapyard
+    3300008: woodpile_m
+    3300010: woodpile_s
+    3300012: Corner
+    3300014: Entrance
+    3300016: line1
+    3300018: line2
+    3300020: farmland_m
+    3300022: farmland_s
+    3300024: pasture_m
+    3300026: hut
+    3300028: hutch
+    3300030: scrapyardpile
+    4300000: scrapyard
+    4300002: scrappile_s
+    4300004: scrappile_m
+    4300006: woodpile_s
+    4300008: woodpile_m
+    4300010: Entrance
+    4300012: line1
+    4300014: line2
+    4300016: Corner
+    4300018: farmland_m
+    4300020: farmland_s
+    4300022: pasture_m
+    4300024: hut
+    4300026: hutch
+    4300028: scrapyardpile
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ENDCIV_ShantyAssets_01_m
+    second: {fileID: 2100000, guid: 1383614f36329244d8e56c9fb79b3861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ENDCIV_ShantyAssets_01_m.1
+    second: {fileID: 2100000, guid: 8883985db2de1ea418c8dd06799c8ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 4ee86eedb079af84d9535f2c5ef12f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 683b683a502b66b4dbb255d9992566d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fences
+    second: {fileID: 2100000, guid: eda29d48e4450d849aa075dbfda09706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scrappile
+    second: {fileID: 2100000, guid: cbf19bec3961f6b478cd81e57b3a6085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scrapyard
+    second: {fileID: 2100000, guid: e08b5cd82291cca47acf16ea4a094076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodpile
+    second: {fileID: 2100000, guid: 8f2efa438b412d94999c545a9de04f86, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
