@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿
 
 namespace Endciv
 {
@@ -107,7 +107,7 @@ namespace Endciv
 #if UNITY_EDITOR
 		public override void DrawUIDetails()
 		{
-			GUILayout.Label("ConsumeFood: " + timer.ToString("0.00") + " / " + duration.ToString("0.00"));
+			UnityEngine.GUILayout.Label("ConsumeFood: " + timer.ToString("0.00") + " / " + duration.ToString("0.00"));
 		}
 #endif
 	}

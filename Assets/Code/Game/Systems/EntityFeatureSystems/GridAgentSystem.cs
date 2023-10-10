@@ -1,5 +1,5 @@
 ﻿using System;
-using UnityEngine;
+
 namespace Endciv
 {
 	public class GridAgentSystem : EntityFeatureSystem<GridAgentFeature>

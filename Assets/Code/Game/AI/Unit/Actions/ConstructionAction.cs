@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace Endciv
+﻿namespace Endciv
 {
 	public class ConstructionAction : AIAction<ConstructionActionSaveData>
 	{
